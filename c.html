@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+  <style>
+      body {
+    color: white;
+    background-color: black;
+
+  }
+.header {
+  margin: 0px;
+  background-color: #330;
+  padding: 15px;
+}
+
+.footer {
+  margin: -12px;
+  background-color: #330;
+  padding: 15px;
+}
+
+
+
+.col-3  a {
+  padding: 10px;
+color: white;
+text-decoration: none;
+}
+
+.col-9 {
+  padding: 30px;
+color: white;
+text-decoration: none;
+font-size: 20px;
+
+}
+
+.col-3  a:hover{
+  padding: 15px;
+color: white;
+background-color: green;
+text-decoration: none;
+}
+
+.col-3 li {
+  margin: 15px;
+}
+
+.topic {
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+.topic:hover {
+    background-color: green;
+}
+
+h1 {
+  padding: 50px 0 50px 0;
+}
+
+code {
+    font-size: 25px;
+}
+
+.jumbotron {
+    color: black;
+    
+}
+
+button a {
+    text-decoration: none;
+    background-color: green; 
+    color: white;
+    font-size: 20px;
+    border-radius: 2px;
+    padding: 9px;
+}
+
+.content-headings {
+margin-left: 30%;
+border-bottom: 1px solid white;
+background-color: green;
+padding: 20px;
+}
+
+button a:hover {
+    text-decoration: none;
+    background-color: green; 
+    color: white;
+    font-size: 25px;
+    
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+.main-functions {
+    color: purple;
+}
+.content {
+    color: black;
+}
+.header-files {
+    color: darkred;
+}
+.next, .previous  {
+  background-color: green;
+  color: white;
+  padding: 15px 35px 15px 35px;
+  
+}
+
+.comments {
+    color: darkgreen;
+}
+.previous {
+  position: absolute;
+  left: 0;
+}
+.next {
+  position: absolute;
+  right: 40px;
+}
+  </style>
+</head>
+<body>
+
+    
+    <div class="header">
+    <h1>
+      Learn by programs
+    </h1>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">            
+          <div class="col-3">
+              <h1 class="topic"> Topics </h1>
+                <ul>    
+                    <li> <a href="#intro"> Intro to website </a> </li>
+                    <li> <a href="#what">  printing characters</a> </li>
+                    <li> <a href="#importance"> importance of c++</a> </li>
+                    <li> <a href="#applications"> applications of c++</a> </li>
+
+                </ul>
+          </div>
+          <div class="col-9">   
+              <h1 class="content-headings">
+                  Intro for our website
+              </h1>      
+              <p>1. we have made look of our website in dark mode so that your eyes will love this.</p> 
+              <p>2. here, you will learn everything by making hundreds of programs from easy to hard level programming questions.</p> 
+              <p>3. we are providing solution for every question so look them after trying your self first.</p>
+              <p>4. we are providing videos tutorial in which you will learn programming in c.</p>
+              <p>5. practice makes a man perfect. so, try every program, understand logics and make conclusions.by doing this, you will definitelt be able to enhance your programming skill.</p> 
+              <br>
+              <p> <b>Note:- </b> for practicing question you can use online code editor or any other code editor that you have on your computer.</p>
+
+              <h1 class="content-headings">printing characters program</h1>
+              <button class="solution" id="btn">solution</button>
+               <h2><b>P1.</b>print hello world , some *** and some other symbols.</h2>
+              <div class="jumbotron">
+                  <p class="header-files">#include&lt;stdio.h&gt;<br>#include&lt;conio.h&gt;</p>
+                   <p class="main-functions">int main() {<br>
+                    <span class="content">printf("hello world");<span class="comments">//printf is used for printing characters.</span>
+   </span>       <br>
+      <span class="content">printf("**********");<br>printf(">>>>>>>>>>");</span> <span class="comments">/*in the same way many more characters or symbols can be printed except escape characters.*/</span>
+            <br></span><br>return 0;<br>}</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+    <div class="footer">
+      <h1>
+        Learn Computer Languages 
+      </h1>
+      <p> start from basics to beyond. </p> 
+      </div>   
+      
+    <script>
+    document.getElementById("btn").onclick="myFunction()";
+    function myFunction() {
+        
+    }</script>
+</body>
+</html>
